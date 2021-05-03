@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(bg5.gif);
+  background-size: cover;
+  font-family: Century Gothic;
+  color: #fff;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.625rem;
+}
+
+.box h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #DCD3FF;
+  text-align: center;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+.box .inputBox input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox label {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box .inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: #03a9f4;
+  font-size: 0.75rem;
+}
+
+.box input[type="submit"] {
+  color: #fff;
+  background-color: #03a9f4;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  font-family: Garamond, serif;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #FFDFD3;
+  color: black;
+  border-top: solid #FEC8D8;
+  border-bottom: solid #FF817A;
+}
+.box a {
+  color: #DEB3CF;
+}
+.box a:hover{
+color: #B57FB3;
+letter-spacing: 0.062rem;
+text-decoration: underline;
+font-weight: bold;
+}
+.box a:active {
+  color: #F1C5AE;
+}
+.far {
+  cursor: pointer;
+  position: relative;
+  left: 290px;
+  top: -65px;
+}

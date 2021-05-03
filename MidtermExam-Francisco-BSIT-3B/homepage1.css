@@ -1,0 +1,35 @@
+body {
+margin:0;
+padding:0;
+background-image:url(bg.gif);
+background-size: cover;
+font-family: Century Gothic;
+}
+h4{
+    position:relative ;
+    top:20%;
+    width:95%;
+    font-size:4em;
+    text-align:center;
+    transform:translate ;
+    color:#fff;
+    transform:translateY (-50%);
+}
+.box button[type="submit"] {
+  color: #fff;
+  background-color: #03a9f4;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  font-family: Century Gothic;
+  font-weight: bold;
+}
+
+.box button[type="submit"]:hover {
+  background-color: #FFDFD3;
+  color: black;
+  border-top: solid #FEC8D8;
+  border-bottom: solid #FF817A;
+  cursor: pointer;
+}

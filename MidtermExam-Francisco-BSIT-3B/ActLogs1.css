@@ -1,0 +1,42 @@
+body {
+  background-image: url(bga.gif);
+  background-size: cover;
+  font-family: Century Gothic;
+  font-weight: bold;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+th{
+  background-color: #8AC0DE;
+}
+tr:nth-child(even){background-color: #F9E1E0}
+button[type="button"] {
+  background-color: #9799BA;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  font-family: Century Gothic;
+  
+}
+
+button[type="button"]:hover {
+  background-color: #587DAF;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+ a:hover{
+color: #fff;
+letter-spacing: 0.062rem;
+text-decoration: underline;
+font-weight: bold;
+}
+ a:active {
+  color: #92B1B6;
+}
